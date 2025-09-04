@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'farmer_login.dart';
-import 'nursery_login.dart';
 
 class RoleSelectionPage extends StatelessWidget {
   const RoleSelectionPage({super.key});
