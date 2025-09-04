@@ -53,16 +53,16 @@ class RoleSelectionPage extends StatelessWidget {
               ),
             ),
 
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
-              child: _RoleCardButton(
-                label: 'nursery_owner'.tr(),
-                assetPath: 'assets/icons/nursery.png',
-                accent: Colors.teal.shade600,
-                onTap: () => Navigator.push(
-                  context, MaterialPageRoute(builder: (_) => NurseryLoginPage())),
-              ),
-            ),
+            // Padding(
+            //   padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
+            //   child: _RoleCardButton(
+            //     label: 'nursery_owner'.tr(),
+            //     assetPath: 'assets/icons/nursery.png',
+            //     accent: Colors.teal.shade600,
+            //     onTap: () => Navigator.push(
+            //       context, MaterialPageRoute(builder: (_) => NurseryLoginPage())),
+            //   ),
+            // ),
 
             const Spacer(),
             Padding(
